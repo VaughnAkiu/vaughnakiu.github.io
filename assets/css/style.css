@@ -1,0 +1,29 @@
+/* Light mode (default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --link-color: #0066cc;
+}
+
+/* Dark mode (auto, based on system preference) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #e4e4e4;
+    --link-color: #66aaff;
+  }
+}
+
+/* Apply colors */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+a {
+  color: var(--link-color);
+}
