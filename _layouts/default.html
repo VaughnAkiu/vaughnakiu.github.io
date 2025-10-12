@@ -6,13 +6,6 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
-  <main class="content">
-    {{ content }}
-  </main>
-</body>
-</html>
-
 <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
 <script>
   const toggle = document.getElementById('theme-toggle');
@@ -24,3 +17,11 @@
     localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
   });
 </script>
+<body>
+  <main class="content">
+    {{ content }}
+  </main>
+</body>
+</html>
+
+
