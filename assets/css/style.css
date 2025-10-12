@@ -27,3 +27,9 @@ body {
 a {
   color: var(--link-color);
 }
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #e4e4e4;
+  --link-color: #66aaff;
+}
