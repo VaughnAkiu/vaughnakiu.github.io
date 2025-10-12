@@ -4,4 +4,6 @@ title: Home
 ---
 
 
-Testing barebones setup Jekyll site
+Placeholder web page.
+See some of my current work:
+https://learn-japanese-livid.vercel.app/
