@@ -1,2 +1,4 @@
-theme: jekyll-theme-chirpy
-description: Test Test
+title: vaughn akiu test website
+description: A simple Jekyll site with dark mode
+markdown: kramdown
+theme: null
